@@ -108,10 +108,6 @@
     <Compile Include="Migrations\201810291829555_AddingLoan.Designer.cs">
       <DependentUpon>201810291829555_AddingLoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201810300401138_SeedCibilScore.cs" />
-    <Compile Include="Migrations\201810300401138_SeedCibilScore.Designer.cs">
-      <DependentUpon>201810300401138_SeedCibilScore.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationContext.cs" />
     <Compile Include="Models\CibilScore.cs" />
@@ -140,9 +136,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810291829555_AddingLoan.resx">
       <DependentUpon>201810291829555_AddingLoan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810300401138_SeedCibilScore.resx">
-      <DependentUpon>201810300401138_SeedCibilScore.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
