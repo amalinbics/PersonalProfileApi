@@ -10,13 +10,17 @@ namespace PersonalProfileApi.Models
         public int Id { get; set; }
 
         [Required]
+        [StringLength(50)]
         public string FirstName { get; set; }
 
+        [StringLength(50)]
         public string MiddleName { get; set; }
 
+        [StringLength(50)]
         public string LastName { get; set; }
 
         [Required]
+        [StringLength(50)]
         public string Email { get; set; }
 
         [Required]
@@ -29,6 +33,10 @@ namespace PersonalProfileApi.Models
         [Required]
         [StringLength(500)]
         public string Address { get; set; }
+
+        
+
+
 
     }
 }

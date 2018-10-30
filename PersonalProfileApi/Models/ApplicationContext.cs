@@ -12,5 +12,7 @@ namespace PersonalProfileApi.Models
         {
 
         }
+        public DbSet<Lender> Lenders { get; set; }
+        public DbSet<Loan> Loans { get; set; }
     }
 }

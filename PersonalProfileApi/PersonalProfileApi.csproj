@@ -96,9 +96,27 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810291802400_AddLender.cs" />
+    <Compile Include="Migrations\201810291802400_AddLender.Designer.cs">
+      <DependentUpon>201810291802400_AddLender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810291806437_SettingLenderPropertyLength.cs" />
+    <Compile Include="Migrations\201810291806437_SettingLenderPropertyLength.Designer.cs">
+      <DependentUpon>201810291806437_SettingLenderPropertyLength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810291829555_AddingLoan.cs" />
+    <Compile Include="Migrations\201810291829555_AddingLoan.Designer.cs">
+      <DependentUpon>201810291829555_AddingLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810300401138_SeedCibilScore.cs" />
+    <Compile Include="Migrations\201810300401138_SeedCibilScore.Designer.cs">
+      <DependentUpon>201810300401138_SeedCibilScore.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationContext.cs" />
+    <Compile Include="Models\CibilScore.cs" />
     <Compile Include="Models\Lender.cs" />
+    <Compile Include="Models\Loan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +130,20 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810291802400_AddLender.resx">
+      <DependentUpon>201810291802400_AddLender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810291806437_SettingLenderPropertyLength.resx">
+      <DependentUpon>201810291806437_SettingLenderPropertyLength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810291829555_AddingLoan.resx">
+      <DependentUpon>201810291829555_AddingLoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810300401138_SeedCibilScore.resx">
+      <DependentUpon>201810300401138_SeedCibilScore.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
